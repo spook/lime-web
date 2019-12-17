@@ -84,7 +84,7 @@ image::img/network2.png[align="center"]
 WiFi Access Points of the same cloud share common parameters:
 
 * The SSID (the WiFi AP identification name)
-* Special anycast.footnote:[IP shared by multiple devices in the network] IPv4 and IPv6 addresses 
+* Special anycast footnote:[IP shared by multiple devices in the network] IPv4 and IPv6 addresses 
 * A special anycast MAC address
 * The DHCP/RA server to provide valid IPs from the cloud to the clients.
 
@@ -112,7 +112,7 @@ is physically attached will take care of this.
 
 [NOTE]
 ==============
-An ebtables.footnote:[something like iptables but for network layer 2] rule in the LAN/AP bridge prevents 
+An ebtables footnote:[something like iptables but for network layer 2] rule in the LAN/AP bridge prevents 
 packets sent to the anycast address from propogating through the cloud.  The mesh node where the client 
 is associated gets the packet but not the other nodes.
 ==============
